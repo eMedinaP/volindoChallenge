@@ -11,3 +11,197 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.bg-left{
+  background-image: url('../public/leftBg.png');
+  background-size: cover;
+  height: 100vh;
+  border-radius: 0px 30px 30px 0px;
+}
+.bg-right{
+  background-image: url('../public/rightBg.png');
+  background-position: center;
+  /* background-size: cover; */
+  height: 100vh;
+}
+.al-center{
+  display: -webkit-flexbox;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.welcome-section{
+  width: 78%;
+  margin:0 auto;
+  margin-top: 150px;
+  position: relative;
+  z-index: 1;
+  height: auto;
+  }
+  .welcome-left{
+    background: rgba(66, 96, 124, 0.75);
+    box-shadow: 8px 1px 13px rgba(0, 0, 0, 0.25);
+    border-radius: 19px;
+  text-align: center;
+  padding:20px 0px 20px 0px;
+  }
+  .welcome-left img{
+  width:100px;
+  height:100px;
+  border-radius:50%;
+  margin:-75px 0px 10px 0px;
+  }
+  .welcome-left h1{
+  margin:0px;
+  color:#fff;
+  font-size:30px;
+  }
+.settings{
+  padding-right: 15px;
+}
+.settings img{
+  width: 24px;
+  height: 24px;
+  margin: 0;
+}
+.settings p{
+  display: inline;
+  color: #fff;
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  text-decoration-line: underline;
+  padding-left: 8px;
+}
+.settings a:hover{
+  color: #fff;
+}
+.no-pt{
+  margin-top: -23px;
+}
+.welcome-title{
+  padding-top: 50px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.language-select{
+  padding-top: 25px;
+}
+.languageSel{
+  display: inline;
+}
+.languageSel img{
+  width: 18px;
+  height: 18px;
+  margin-top: 5px;
+}
+.languageSel p{
+  padding-left: 12px;
+  display: inline;
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+}
+.languageSel .active{
+  color: #D8BC8B;
+}
+.c-pointer{
+  cursor: pointer;
+}
+.button-singout{
+  padding-top: 30px;
+}
+.btn-signO{
+  background: transparent;
+  border: 1px solid #FFFFFF;
+  border-radius: 35px;
+  width: 40% !important;
+  color: white;
+  font-family: 'Montserrat SemiBold';
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 7px;
+  padding-bottom: 9px;
+}
+.clock-date{
+  padding-top: 38px;
+}
+.clockDateStyles{
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 35px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin: 0;
+  height: 20px;
+}
+.dateSize{
+  font-size: 13px;
+}
+.container-cards{
+  margin-top: 25px !important;
+  display: flex;
+  justify-content: center;
+}
+.container-cards-b{
+  margin-top: 77px !important;
+  display: flex;
+  justify-content: center;
+}
+.container-card{
+  height: 150px;
+}
+.card{
+  background: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  box-shadow: 7px 2px 11px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  height: 150px !important;
+  display: flex !important;
+  align-items: center;
+}
+.card img{
+  padding-top: 26px;
+  width: 100px;
+  height: 100px;
+}
+.card p{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #41607C;
+  padding-top: 5px;
+}
+.container-logo{
+  padding-top: 95px;
+  padding-bottom: 25px;
+    text-align: center;
+}
